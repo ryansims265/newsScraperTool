@@ -2,9 +2,9 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Scraping With Mongoose</title>
+    <title>JS Article Scraping </title>
     <style>
-      body { background-color: #F2F6D0 }
+      body { background-color: #c62a9e }
       #wrapper {
         width: 960px;
         margin-left: auto;
@@ -16,15 +16,19 @@
         overflow: auto;
         width: 60%;
         height: 700px;
+        background-color: #ff9873;
+        
       }
       #notes {
         float: right;
         width: 30%;
+        color: #ff9873;
+        text-shadow: 2px 2px #ff0000;
       }
       textarea, input {
         display: block;
         width: 100%;
-        background-color: #FCF5C7;
+        background-color: #c62a9e;
       }
       input {
         height: 36px;
@@ -34,12 +38,16 @@
         height: 200px;
         font-size: 18px;
       }
+      #title{
+        color: #ff9873;
+        text-shadow: 2px 2px #ff0000;
+      }
     </style>
   </head>
   <body>
     <div id="wrapper">
-      <h1>Note Scraper</h1>
-      <h2><i>If you can do this...the homework should be no problem.</i></h2>
+      <h1 id="title">Javascript Article Scraper</h1>
+      <h2><i></i></h2>
       <div id="articles"></div>
       <div id="notes"></div>
     </div>
